@@ -19,6 +19,5 @@ async def on_ready():
     bot.load_extension('feedback.help')
     bot.load_extension('feedback.invite')
     bot.load_extension('feedback.suggest')
-    bot.load_extension('getpfp.pfp')
 
 bot.run("bot-token")
